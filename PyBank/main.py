@@ -52,10 +52,7 @@ print("Greatest Decrease in Profits: ",date_decrease, greatest_decrease)
     
     
     
-    #number_months= int (bank_record)
-    #average= int(bank_record)
-    #greatest_increase =int (bank_record)
-    #greatest_decrease=int (bank_record)
+  
 
 
 
@@ -66,6 +63,6 @@ print("Greatest Decrease in Profits: ",date_decrease, greatest_decrease)
 
     
 
-#load_file(path2)
+
 
 
