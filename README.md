@@ -1,7 +1,9 @@
 Pyhton Homework
 
 I created two Python scripts:
+
 First script is analyzing the financial records of the company.
+
 Second script is counting the voting process.
 
 I export both analysis into a .txt file
