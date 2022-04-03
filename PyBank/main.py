@@ -1,7 +1,7 @@
 import os
 import csv
-#path2= os.path.join('Resources','budget_data.csv')
-path2="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyBank/Resources/budget_data.csv"
+path2= os.path.join('Resources','budget_data.csv')
+#path2="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyBank/Resources/budget_data.csv"
 
 
 with open (path2,'r') as data:
