@@ -1,9 +1,9 @@
 import os
 import csv
-#path2= os.path.join("Resources","election_data.csv")
+#path= os.path.join("Resources","election_data.csv")
 path2="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyPoll/Resources/election_data.csv"
-
-
+#path_output= os.path.join('PyBank','Analysis')
+path_output="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyPoll/Analysis/election.txt"
 with open (path2,"r") as data:
     csvreader = csv.reader(data, delimiter=',')
     header = next(csvreader)
@@ -56,3 +56,11 @@ for i in range(4):
 print("______________________")
 print ("Winner: ", winner)
 print("_______________________")
+
+
+file=open(path_output,'w')
+file.write(f"Election results\n____________________\nTotal Votes: {num_votes}\n____________________\n")
+for i in range(4):
+    file.write(f"{candidates[i]}: {percentage_votes[i]:.3%} ({votes_candidate[i]:,})\n")
+file.write(f"____________________\nWinner: {winner}\n____________________")
+file.close()
