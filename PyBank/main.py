@@ -1,8 +1,9 @@
 import os
 import csv
-#path= os.path.join('Resources','budget_data.csv')
-path2="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyBank/Resources/budget_data.csv"
-path_output="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyBank/Analysis/budget.txt"
+path2= os.path.join('Resources','budget_data.csv')
+#path2="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyBank/Resources/budget_data.csv"
+path_output= os.path.join('Analysis','budget.txt')
+#path_output="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyBank/Analysis/budget.txt"
 
 with open (path2,'r') as data:
     csvreader = csv.reader(data, delimiter=',')

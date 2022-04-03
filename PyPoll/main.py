@@ -1,9 +1,9 @@
 import os
 import csv
-#path= os.path.join("Resources","election_data.csv")
-path2="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyPoll/Resources/election_data.csv"
-#path_output= os.path.join('PyBank','Analysis')
-path_output="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyPoll/Analysis/election.txt"
+path2= os.path.join("Resources","election_data.csv")
+#path2="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyPoll/Resources/election_data.csv"
+path_output= os.path.join('Analysis','election.txt')
+#path_output="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyPoll/Analysis/election.txt"
 with open (path2,"r") as data:
     csvreader = csv.reader(data, delimiter=',')
     header = next(csvreader)
