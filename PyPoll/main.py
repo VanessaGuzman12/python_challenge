@@ -1,7 +1,7 @@
 import os
 import csv
-path2= os.path.join('Resources','budget_data.csv')
-#path2="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyPoll/Resources/election_data.csv"
+#path2= os.path.join('.','HomeworkPython','python_challenge','Pybank','Resources','budget_data.csv')
+path2="C:/Users/vanem/Homeworks/HomeworkPython/python_challenge/PyPoll/Resources/election_data.csv"
 
 #def load_file (filepath):
 with open (path2,"r") as data:
@@ -58,5 +58,3 @@ for i in range(4):
 print("______________________")
 print ("Winner: ", winner)
 print("_______________________")
-
- 
